@@ -1,0 +1,88 @@
+body, html {
+    font-family: Helvetica, sans-serif;
+    width: 100%;
+    min-width: 850px;
+}
+
+a:link { text-decoration: none; color: inherit;}
+a:visited { text-decoration: none; color: inherit;}
+a:hover { text-decoration: none; color: inherit;}
+a:active { text-decoration: none; color: inherit;}
+
+/* HEADER -- FOOTER */
+
+header {
+    display: flex;
+}
+
+footer {
+    width: 850px;
+    margin: 15px auto;
+}
+
+
+
+/* PAGE STYLING */
+
+.title {
+    color: #4169E1;
+    width: 10em;
+    text-align: left;
+    margin-left: 2em;
+}
+
+.page-title {
+    margin: auto 0;
+}
+
+nav {
+    margin : auto 0;
+    display: flex;
+}
+
+.nav-p {
+    margin : auto 10px;
+    font-weight: bold;
+}
+
+.nav-p:hover {
+    text-decoration: underline;
+    color: #4169E1;
+}
+
+main {
+    margin: 0 auto;
+    width: 850px;
+}
+
+.content {
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+
+/* SPECIFIC TEXT STYLE */
+
+.links {
+    color: #4169E1;
+}
+
+.small-grey {
+    font-style: italic;
+    color: dimgray;
+    font-size: 0.7em;
+}
+
+/* HOME PAGE */
+
+#profile-links {
+    font-size: 1em;
+}
+
+/* BLOG */
+
+.post-date {
+    color: dimgray;
+    font-size: 0.6em;
+    margin: 0;
+    margin-bottom: -1.5em;
+}
